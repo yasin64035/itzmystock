@@ -1361,6 +1361,136 @@ body {
   font-family: "JetBrains Mono";
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+.slider img {
+  width: calc(70% - 20px);
+  height: auto;
+  margin: 10px;
+  border: 5px solid transparent;
+  scroll-snap-align: start;
+  animation: border-animation 1s ease-in-out forwards;
+}
+
+@keyframes border-animation {
+  from {
+    border-color: transparent;
+  }
+  to {
+    border-color: #333;
+  }
+}
+
+@media (max-width: 767px) {
+  .slider img {
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+    border: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pageclip-form {
+  background-color: transparent;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  padding: 20px;
+  display: inline-block;
+  transition: all 0.3s ease-out;
+}
+
+.pageclip-form:hover {
+  border-color: blue;
+  box-shadow: 0 0 10px blue;
+  transform: translateY(-5px);
+}
+
+.pageclip-form input[type="text"],
+.pageclip-form input[type="email"] {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid blue;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 100%;
+  transition: all 0.3s ease-out;
+}
+
+.pageclip-form input[type="text"]:focus,
+.pageclip-form input[type="email"]:focus {
+  border-bottom-color: deepskyblue;
+  outline: none;
+}
+
+.pageclip-form__submit {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.pageclip-form__submit:hover {
+  background-color: deepskyblue;
+  transform: translateY(-5px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Section Background SVG */
 
 .home_bg {
