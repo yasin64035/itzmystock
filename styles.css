@@ -1386,13 +1386,15 @@ body {
 }
 
 .slider img {
-  width: calc(70% - 20px);
-  height: auto;
+  width: 300px;
+  height: 400px;
+  /* object-fit: contain; */
   margin: 10px;
   border: 5px solid transparent;
   scroll-snap-align: start;
   animation: border-animation 1s ease-in-out forwards;
 }
+
 
 @keyframes border-animation {
   from {
@@ -1411,6 +1413,7 @@ body {
     border: none;
   }
 }
+
 
 
 
