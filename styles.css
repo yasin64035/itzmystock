@@ -1489,7 +1489,8 @@ body {
 .handsome-men img {
   max-width: 100%;
   height: auto;
-  margin: 20px 0;
+  margin: 20px auto;
+  display: block;
 }
 
 .handsome-men p {
@@ -1509,10 +1510,6 @@ body {
     padding: 0 20px;
   }
 
-  .handsome-men img {
-    margin: 20px auto;
-  }
-
   .handsome-men p {
     margin: 0;
   }
@@ -1521,6 +1518,7 @@ body {
     font-size: 30px;
   }
 }
+
 
 
 
