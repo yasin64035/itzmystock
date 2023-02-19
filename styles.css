@@ -1480,6 +1480,55 @@ body {
 
 
 
+.handsome-men {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.handsome-men img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+
+.handsome-men p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0 20px;
+}
+
+.handsome-men h1 {
+  font-size: 36px;
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .handsome-men {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  .handsome-men img {
+    margin: 20px auto;
+  }
+
+  .handsome-men p {
+    margin: 0;
+  }
+
+  .handsome-men h1 {
+    font-size: 30px;
+  }
+}
+
+
+
+
+
+
+
+
 
 
 
